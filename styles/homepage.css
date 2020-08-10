@@ -12,18 +12,25 @@ body {
     font-size: 250%;
 }
 
-.landing-content {
-    line-height: 1.5;
-    
-    height: 100vh;
+.landing-content-paragraph {
+    padding: 30vh 0 70vh 0;
+    text-align: center;
+    margin: auto;
+    width: 50%;
 }
 
-.landing-content-paragraph {
+.landing-content-hand-container {
     text-align: center;
-    padding: 0 25%;
     position: absolute;
-    top: 40%;
+    top: 35%;
+    z-index: -1;
+    opacity: .40;
 }
+
+.hand {
+    width: 25%;
+}
+
 
 .landing-page-arrow {
     position: absolute;
@@ -77,6 +84,7 @@ body {
 }
 
 
+
 /* /////////////////////////////////// IDs ///////////////////////////////////// */
 #navbarSupportedContent {
 
@@ -92,8 +100,10 @@ body {
 @media (max-width: 1000px){
     
     .landing-content-paragraph {
-        padding: 0 10%;
-        
+        padding: 20vh 0 40vh 0;
+        text-align: center;
+        margin: auto;
+        width: 75%;
     }
 
     .landing-page-arrow-mobile {
