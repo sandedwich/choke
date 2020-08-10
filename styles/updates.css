@@ -53,6 +53,12 @@ body {
     margin: 0 auto;
 }
 
+.hand {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
 @media (max-width: 1000px){
 
     .content {
