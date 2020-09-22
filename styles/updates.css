@@ -59,6 +59,14 @@ body {
     left: 40%;
 }
 
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: black;
+}
+
 @media (max-width: 1000px){
 
     .content {

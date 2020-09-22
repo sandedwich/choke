@@ -12,15 +12,13 @@ body {
     font-size: 250%;
 }
 
+/* QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ */
+
 .landing-content-paragraph {
     padding: 30vh 0 70vh 0;
     text-align: center;
     margin: auto;
     width: 50%;
-}
-
-.hand {
-    width: 25%;
 }
 
 .landing-page-arrow {
@@ -34,22 +32,75 @@ body {
     display: none;
 }
 
-.collection-content {
+/* QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ */
+
+.section {
+    margin: 28% 10% 10% 10%;
+    line-height: 1.5;
+}
+
+.collections-section {
     margin: 0 10% 10% 10%;
     line-height: 1.5;
 }
 
-.collections {
-    margin-bottom: 80px;
+.ordering-section {
+    margin: 28% 25% 10% 25%;
+}
+
+.other-links-section {
+    margin: 28% 0 0 0;
+    padding: 30px;
     text-align: center;
 }
 
-.row {
+/* QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ */
+
+.sub-title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.last-sentence {
+    margin: 5% 0;
+}
+
+/* .row {
     padding: 20px;
+} */
+
+.instruct-row {
+    padding: 0;
+}
+
+.instruct-col {
+    padding: 0;
 }
 
 .card {
     margin: 0 auto;
+}
+
+/* QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ */
+
+.link {
+    color: #f76a8c;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #fe346e;
+    text-decoration: none;
+}
+
+.footer-link {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: black;
+    text-decoration: none;
 }
 
 .collection-link {
@@ -59,6 +110,12 @@ body {
 .collection-link:hover {
     color: black;
     text-decoration: none;
+}
+
+/* QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ */
+
+.step {
+    margin-top: 40px;
 }
 
 .first-col {
@@ -72,6 +129,21 @@ body {
 .sorted-by {
     text-decoration: none;
     padding: 4px 24px;
+}
+
+.banner {
+    background-color:  #f8f9fa;
+}
+
+.update-date {
+
+    color: lightgray;
+    position: absolute;
+    right: 20px;
+}
+
+.arrows {
+    width: 20%;
 }
 
 
@@ -103,5 +175,21 @@ body {
 
     .col-sm-12 {
         margin-bottom: 120px;
+    }
+
+    .first-sub-title {
+        margin-top: 30%;
+    }
+
+    .last-sentence {
+        margin: 15% 0;
+    }
+
+    .collections-section {
+        margin: 25% 10% 10% 10%;
+    }
+
+    .ordering-section {
+        margin: 28% 10% 10% 10%;
     }
 }
