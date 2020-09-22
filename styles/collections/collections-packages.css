@@ -55,12 +55,13 @@ body {
 }
 
 .link {
-    text-decoration: underline;
-    color: black;
+    color: #f76a8c;
+    text-decoration: none;
 }
 
 .link:hover {
-    color: black;
+    color: #fe346e;
+    text-decoration: none;
 }
 
 @media (max-width: 1000px){

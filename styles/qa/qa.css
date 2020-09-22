@@ -18,12 +18,13 @@ body {
 }
 
 .link {
-    color: black;
-    text-decoration: underline;
+    color: #f76a8c;
+    text-decoration: none;
 }
 
 .link:hover {
-    color: black;
+    color: #fe346e;
+    text-decoration: none;
 }
 
 #navbarSupportedContent {
