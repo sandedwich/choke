@@ -3,6 +3,15 @@ body {
     font-family: 'Coda', cursive;
 }
 
+code {
+    color: black;
+}
+
+hr {
+    width: 75%;
+    visibility: hidden;
+}
+
 .navbar {
     padding-left: 2%; /* pushes the navbar a little further to the left since i didn't like how close it was to the logo */
 }
@@ -165,6 +174,10 @@ ol {
 }
 
 @media (max-width: 1000px){
+
+    hr {
+        visibility: visible;
+    }
     
     .landing-content-paragraph {
         padding: 20vh 0 50vh 0;

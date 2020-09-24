@@ -15,7 +15,12 @@ p {
 }
 
 .title {
-    margin: 5% 0;
+    margin-top: 5%;
+}
+
+.date {
+    color: lightgray;
+    margin-bottom: 3%;
 }
 
 .content {
@@ -55,5 +60,9 @@ p {
 
     .instruction {
         padding-left: 30px;
+    }
+
+    .date {
+        margin-bottom: 10%;
     }
 }
